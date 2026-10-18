@@ -1,0 +1,37 @@
+MIT License
+
+Copyright (c) 2026 Jonathan Medina, Roger Ramírez, Wilmer Rivas, Jennifer Célleri
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+Note on scope: this license covers the source code, notebooks, and derived
+result tables and metadata (CSV/JSON files) contained in this repository. It
+does NOT cover:
+
+- The original photographs and annotations from the DentalAI dataset
+  (Valluri, 2023, Kaggle) and the Dental Caries dataset (Roboflow Universe,
+  version 1). Both are distributed under CC BY 4.0 and remain subject to their
+  original licenses and attribution requirements. See Sections 3 and 8 of
+  README.md for details and links to the original sources.
+- The SAM 2 model and its base weights (Ravi et al., 2024), which remain
+  subject to their own license in the official repository
+  (facebookresearch/sam2). Fine-tuned checkpoints derived from SAM 2 must
+  also comply with that license.

@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the paper below."
+title: "Effect of an intraoral image preprocessing pipeline on prompt-conditioned dental caries segmentation with SAM 2"
+type: software
+authors:
+  - family-names: Medina
+    given-names: Jonathan
+    email: jmedina18@utmachala.edu.ec
+    affiliation: "Universidad Técnica de Machala, Ecuador"
+  - family-names: Ramírez
+    given-names: Roger
+    affiliation: "Universidad Técnica de Machala, Ecuador"
+  - family-names: Rivas
+    given-names: Wilmer
+    affiliation: "Universidad Técnica de Machala, Ecuador"
+  - family-names: Célleri
+    given-names: Jennifer
+    email: jcelleri@utmachala.edu.ec
+    affiliation: "Universidad Técnica de Machala, GIDCOWEB, Ecuador"
+license: MIT
+date-released: "2026-10-18"
+repository-code: "TODO: GitHub URL"
+# After the first GitHub release is archived by Zenodo, add that record's DOI here:
+# doi: "10.5281/zenodo.XXXXXXX"
+preferred-citation:
+  type: article
+  title: "Efecto de un pipeline de preprocesamiento de imágenes intraorales sobre la segmentación de caries dentales condicionada por prompt mediante SAM 2"
+  year: 2026
+  authors:
+    - family-names: Medina
+      given-names: Jonathan
+    - family-names: Ramírez
+      given-names: Roger
+    - family-names: Rivas
+      given-names: Wilmer
+    - family-names: Célleri
+      given-names: Jennifer
+  notes: "Manuscript. Update journal and DOI once published."
+references:
+  - type: dataset
+    title: "Fine-tuned SAM 2.1 checkpoints for caries segmentation (Control/Experimental, seeds 56, 42, 25)"
+    authors:
+      - family-names: Medina
+        given-names: Jonathan
+      - family-names: Ramírez
+        given-names: Roger
+      - family-names: Rivas
+        given-names: Wilmer
+      - family-names: Célleri
+        given-names: Jennifer
+    year: 2026
+    publisher:
+      name: Zenodo
+    doi: "10.5281/zenodo.23458622"
