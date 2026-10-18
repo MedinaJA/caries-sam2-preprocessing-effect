@@ -1,0 +1,51 @@
+{
+  "total_inicial": 2154,
+  "total_inicial_por_fuente": {
+    "dentalai": 1190,
+    "roboflow": 964
+  },
+  "total_descartado_por_criterio": {
+    "desenfoque_severo": 71,
+    "resolucion_insuficiente": 447,
+    "geometria_residual_invalida": 30,
+    "duplicado_perceptual": 564,
+    "subexposicion_severa": 2,
+    "sobreexposicion": 1
+  },
+  "total_aceptado_final": 1039,
+  "aceptado_por_fuente": {
+    "dentalai": 593,
+    "roboflow": 446
+  },
+  "resolucion_promedio": {
+    "ancho": 2347.4087932647335,
+    "alto": 1710.8971000935453
+  },
+  "distribucion_mascaras": {
+    "count": 1039.0,
+    "mean": 3.4706448508180943,
+    "std": 2.8529899584869374,
+    "min": 1.0,
+    "25%": 1.0,
+    "50%": 3.0,
+    "75%": 5.0,
+    "max": 22.0
+  },
+  "distribucion_por_clase": {
+    "caries": 1039
+  },
+  "muestras_por_split": {
+    "valid": 156,
+    "train": 727,
+    "test": 156
+  },
+  "muestras_por_split_y_fuente": {
+    "test_dentalai": 89,
+    "test_roboflow": 67,
+    "train_dentalai": 415,
+    "train_roboflow": 312,
+    "valid_dentalai": 89,
+    "valid_roboflow": 67
+  },
+  "corpus_exportado_en": "/content/drive/MyDrive/10mo Semestre/Titulacion II/KDD/Fase 2/Corpus"
+}

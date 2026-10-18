@@ -1,0 +1,7 @@
+path: /content/drive/MyDrive/10mo Semestre/Titulacion II/KDD/Fase 3/Salida/Experimental
+train: train/images
+val: valid/images
+test: test/images
+nc: 1
+names:
+- Caries

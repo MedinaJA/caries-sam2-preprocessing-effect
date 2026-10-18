@@ -1,0 +1,25 @@
+{
+  "total_imagenes_encontradas": 1039,
+  "imagenes_por_particion": {
+    "test": 156,
+    "train": 727,
+    "valid": 156
+  },
+  "imagenes_procesadas_ok": 1039,
+  "imagenes_copiadas_grupo_control": 1039,
+  "imagenes_procesadas_grupo_experimental": 1039,
+  "imagenes_omitidas": 0,
+  "imagenes_con_error": 0,
+  "tiempo_total_pipeline_visual_segundos": 1223.8946915060042,
+  "tiempo_promedio_por_imagen_segundos": 1.177954467282006,
+  "imagenes_ampliadas_hacia_1024": 547,
+  "imagenes_reducidas_hacia_1024": 492,
+  "factor_escala_promedio": 0.9313208221492885,
+  "metodo_interpolacion_ampliacion": "INTER_CUBIC",
+  "metodo_interpolacion_reduccion": "INTER_AREA",
+  "letterbox_pad_color": [
+    0,
+    0,
+    0
+  ]
+}
