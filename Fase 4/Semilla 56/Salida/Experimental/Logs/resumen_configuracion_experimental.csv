@@ -1,0 +1,18 @@
+Parámetro,Valor
+Grupo,Experimental
+data.yaml,/content/drive/MyDrive/Proyecto-Titulacion/Optimizacion/Proyecto/Fase 3/Versiones/v3/Salida/Experimental/data.yaml
+Arquitectura base,"SAM2 (Ravi et al., 2024)"
+Estrategia,"Ajuste fino parcial (Image Encoder congelado, Prompt Encoder congelado, Mask Decoder entrenable)"
+Prompt,"bbox (padding=4px, jitter=±5.00% solo en train)"
+Función de pérdida,"Dice(w=0.7) + Focal(w=0.3, alpha=0.85, gamma=2.0)"
+Optimizador,"AdamW (lr=0.0001, wd=0.0001)"
+Scheduler,"CosineAnnealingLR (T_max=80, eta_min=1e-06)"
+Batch size,4
+Épocas,80
+Early stopping,no se usa; se reporta la EMA de la última época
+EMA / recorte de gradiente,decay=0.999 / clip=1.0
+RUN_ID / huella de configuración,experimental_s56_20261001_181520 / 31eadb2a84e6
+Precisión numérica,bf16
+Semilla,56
+Augmentaciones,"geométricas únicamente (hflip, rotate, shift-scale-rotate)"
+Checkpoint final,/content/drive/MyDrive/10mo Semestre/Titulacion II/KDD/Fase 4/Semilla 56/Salida/Experimental/Checkpoints/sam2_experimental_s56_20261001_181520_final_ema.pt

@@ -1,0 +1,5 @@
+particion,n_imagenes,n_lesiones
+train,727,2455
+valid,156,587
+test,156,564
+total,1039,3606

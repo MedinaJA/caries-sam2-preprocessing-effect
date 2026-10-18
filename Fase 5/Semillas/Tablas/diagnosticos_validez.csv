@@ -1,0 +1,15 @@
+diagnostico,semilla,grupo,n_vacias,tasa_vacias,Metrica,n_obs,beta0_suma,IC_inf,IC_sup,p,n_comunes,dif_abs_media,dif_abs_max,estado
+predicciones_vacias,25.0,Control,1.0,0.0017730496453900709,,,,,,,,,,
+predicciones_vacias,25.0,Experimental,4.0,0.0070921985815602835,,,,,,,,,,
+predicciones_vacias,42.0,Control,2.0,0.0035460992907801418,,,,,,,,,,
+predicciones_vacias,42.0,Experimental,4.0,0.0070921985815602835,,,,,,,,,,
+predicciones_vacias,56.0,Control,5.0,0.008865248226950355,,,,,,,,,,
+predicciones_vacias,56.0,Experimental,5.0,0.008865248226950355,,,,,,,,,,
+sensibilidad_hd95_assd_penalizada,,,,,HD95_pen,1692.0,4.5642369203888,-6.00050732218977,15.12898116296737,0.3971322246800033,,,,
+sensibilidad_hd95_assd_penalizada,,,,,ASSD_pen,1692.0,4.577792288591003,-6.023275764220263,15.17886034140227,0.39735257395397383,,,,
+contraste_eval_rapida_fase4,56.0,Control,,,,,,,,,564.0,0.005102240710430711,0.22732519619836145,REVISAR (diferencia > 1e-3)
+contraste_eval_rapida_fase4,56.0,Experimental,,,,,,,,,564.0,0.0052133222546508545,0.5,REVISAR (diferencia > 1e-3)
+contraste_eval_rapida_fase4,42.0,Control,,,,,,,,,564.0,0.003450912569400764,0.1282050927021724,REVISAR (diferencia > 1e-3)
+contraste_eval_rapida_fase4,42.0,Experimental,,,,,,,,,564.0,0.003542644364896751,0.15738899716717059,REVISAR (diferencia > 1e-3)
+contraste_eval_rapida_fase4,25.0,Control,,,,,,,,,564.0,0.0033546846025337158,0.13568603937388657,REVISAR (diferencia > 1e-3)
+contraste_eval_rapida_fase4,25.0,Experimental,,,,,,,,,564.0,0.0029973144685330132,0.13333317333336536,REVISAR (diferencia > 1e-3)

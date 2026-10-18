@@ -1,0 +1,110 @@
+{
+  "fecha": "2026-10-16T20:07:54",
+  "semillas": [
+    56,
+    42,
+    25
+  ],
+  "grupos": [
+    "Control",
+    "Experimental"
+  ],
+  "eval_precision": "bf16",
+  "checkpoint_kind": "final_ema",
+  "checkpoints": [
+    {
+      "semilla": 56,
+      "grupo": "Control",
+      "archivo": "sam2_control_s56_20261001_042024_final_ema.pt",
+      "ruta": "/content/drive/MyDrive/10mo Semestre/Titulacion II/KDD/Fase 4/Semilla 56/Salida/Control/Checkpoints/sam2_control_s56_20261001_042024_final_ema.pt",
+      "run_id": "control_s56_20261001_042024",
+      "epoca": 80,
+      "val_dice_checkpoint": 0.804628662511605,
+      "huella_config": "31eadb2a84e6",
+      "sha256": "4bb9c86924547c8abf9c65d12541877280be204cde87962ecfa98cf96aaf7943"
+    },
+    {
+      "semilla": 56,
+      "grupo": "Experimental",
+      "archivo": "sam2_experimental_s56_20261001_181520_final_ema.pt",
+      "ruta": "/content/drive/MyDrive/10mo Semestre/Titulacion II/KDD/Fase 4/Semilla 56/Salida/Experimental/Checkpoints/sam2_experimental_s56_20261001_181520_final_ema.pt",
+      "run_id": "experimental_s56_20261001_181520",
+      "epoca": 80,
+      "val_dice_checkpoint": 0.7981511995094974,
+      "huella_config": "31eadb2a84e6",
+      "sha256": "858ac5bc6c2e05a62085af24691d3f38e63fa4cf611e3c8d90e837f2999c324d"
+    },
+    {
+      "semilla": 42,
+      "grupo": "Control",
+      "archivo": "sam2_control_s42_20261002_033006_final_ema.pt",
+      "ruta": "/content/drive/MyDrive/10mo Semestre/Titulacion II/KDD/Fase 4/Semilla 42/Salida/Control/Checkpoints/sam2_control_s42_20261002_033006_final_ema.pt",
+      "run_id": "control_s42_20261002_033006",
+      "epoca": 80,
+      "val_dice_checkpoint": 0.8076968432283725,
+      "huella_config": "62e744b83283",
+      "sha256": "05ce392c262640b5e0b61eb58890318a40f999e3b1720584ba5c8f02e8148804"
+    },
+    {
+      "semilla": 42,
+      "grupo": "Experimental",
+      "archivo": "sam2_experimental_s42_20261002_214552_final_ema.pt",
+      "ruta": "/content/drive/MyDrive/10mo Semestre/Titulacion II/KDD/Fase 4/Semilla 42/Salida/Experimental/Checkpoints/sam2_experimental_s42_20261002_214552_final_ema.pt",
+      "run_id": "experimental_s42_20261002_214552",
+      "epoca": 80,
+      "val_dice_checkpoint": 0.7970835455015403,
+      "huella_config": "62e744b83283",
+      "sha256": "6bc99786c107300ef5c51a8b0d34f6eb1e2f0bfd571e77f06a69c7ab9eff1010"
+    },
+    {
+      "semilla": 25,
+      "grupo": "Control",
+      "archivo": "sam2_control_s25_20261003_055906_final_ema.pt",
+      "ruta": "/content/drive/MyDrive/10mo Semestre/Titulacion II/KDD/Fase 4/Semilla 25/Salida/Control/Checkpoints/sam2_control_s25_20261003_055906_final_ema.pt",
+      "run_id": "control_s25_20261003_055906",
+      "epoca": 80,
+      "val_dice_checkpoint": 0.8074821491225236,
+      "huella_config": "75fd408dae0f",
+      "sha256": "3976ba00a7769e90081ac781e860f0fc685be6b15a82af4371439bd618841d3c"
+    },
+    {
+      "semilla": 25,
+      "grupo": "Experimental",
+      "archivo": "sam2_experimental_s25_20261015_191732_final_ema.pt",
+      "ruta": "/content/drive/MyDrive/10mo Semestre/Titulacion II/KDD/Fase 4/Semilla 25/Salida/Experimental/Checkpoints/sam2_experimental_s25_20261015_191732_final_ema.pt",
+      "run_id": "experimental_s25_20261015_191732",
+      "epoca": 80,
+      "val_dice_checkpoint": 0.7954697323088743,
+      "huella_config": "75fd408dae0f",
+      "sha256": "805e7bf560f7ba2d4b59ec281feca68341b0b06c9364c16aec657478b666257a"
+    }
+  ],
+  "n_lesiones_por_grupo_y_semilla": 564,
+  "versiones": {
+    "python": "3.13.15",
+    "torch": "2.11.0+cu130",
+    "numpy": "2.1.3",
+    "scipy": "1.16.3",
+    "statsmodels": "0.14.6",
+    "pingouin": "0.6.1",
+    "opencv": "4.14.0"
+  },
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "tablas": [
+    "TablaR1_resumen_multisemilla.csv",
+    "bateria_pareada_por_semilla.csv",
+    "calibracion_por_clase.csv",
+    "desempeno_por_fuente_semilla.csv",
+    "diagnosticos_validez.csv",
+    "inventario_checkpoints.csv",
+    "metricas_por_muestra_consolidado.csv",
+    "modelo_mixto_semillas.csv",
+    "reproducibilidad_entre_semillas.csv"
+  ],
+  "figuras": [
+    "Fig6_desempeno_por_metrica_ES.png",
+    "Fig7_mapa_calor_diferencia_media_ES.png",
+    "Fig8_dice_por_fuente_y_semilla_ES.png",
+    "Fig9_casos_mejora_y_deterioro_ES.png"
+  ]
+}
